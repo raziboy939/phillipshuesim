@@ -28,7 +28,7 @@ The app should now be running and reciving data from localhost:8080.
 
 ## Notes and strategy
 
-  This is a very simple app limited to the requirements of the assignment.  For now it makes simple Http GET requests to fetch the state of the lamps connected to localhost:8080, processes the incoming data and outputs the results.
+  This is a very simple app limited to the requirements of the assignment.  For now it makes simple HTTP GET requests to fetch the state of the lamps connected to localhost:8080, processes the incoming data and outputs the results.
  
   It does this by parsing out essential data (name, id, brightness) from an initial GET request and saving it as the primary lamps state object.  
  
